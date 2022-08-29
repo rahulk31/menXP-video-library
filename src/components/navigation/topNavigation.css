@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-bottom: 0.5px solid #333;
+}
+
+.left,
+.middle,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.middle {
+  gap: 0;
+}
+
+.logo {
+  color: #eae6e6;
+  color: greenyellow;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.input-searchbar {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.6rem 3.5rem 0.6rem 2rem;
+  border-radius: 2px;
+  width: 50rem;
+  color: #eae6e6;
+  font-family: inherit;
+  box-shadow: 1px 1px #555, -1px -1px #555;
+  font-size: 1.6rem;
+}
+
+.io-search-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -3rem;
+  cursor: pointer;
+  color: #eae6e6;
+}

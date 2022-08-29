@@ -1,0 +1,32 @@
+.left-nav {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+  border-right: 0.5px solid #333;
+}
+
+.left-nav li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15rem;
+  margin-bottom: 1rem;
+  padding: 1rem 3.2rem;
+}
+
+.left-nav li:hover {
+  background-color: black;
+  color: greenyellow;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.io-icon-left {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.left-nav li span {
+  font-size: 1.6rem;
+}

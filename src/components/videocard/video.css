@@ -1,0 +1,69 @@
+.item {
+  display: inline-block;
+  border-radius: 8px;
+  font-weight: 100;
+  width: 30rem;
+  cursor: pointer;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 30rem;
+}
+
+.details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.channel-image img {
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.video-details {
+  max-width: 25rem;
+}
+
+.title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 400;
+  color: white;
+  margin: 1rem 0 0 0;
+  font-size: 1.6rem;
+}
+
+.channel-name {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.views-and-date {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 2px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.views::after {
+  margin-left: 5px;
+  content: "•";
+}
+
+.uploadTime {
+  margin-left: 5px;
+}

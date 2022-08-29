@@ -1,0 +1,15 @@
+.leftNav-and-videoList {
+    padding: 2rem 3rem 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.homepage-left {
+    flex: 0.5;
+}
+
+.homepage-right {
+    flex: 3;
+}

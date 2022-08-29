@@ -1,0 +1,38 @@
+.chips-wrapper {
+  width: calc(100vw - 27rem);
+  overflow: auto;
+  margin: 0 3rem 1rem auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chips-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chips-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.chips-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.chips-list li {
+  padding: 0.7rem 1.5rem;
+  border-radius: 50rem;
+  background-color: #333;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.chips-list .active-chip, .chips-list li:hover {
+    color: greenyellow;
+    background-color: black;
+}
